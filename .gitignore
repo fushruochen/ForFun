@@ -1,0 +1,245 @@
+
+#########
+#Exclude all
+#########
+*
+!*/
+!.gitignore
+
+*.bak
+*.backup
+*.~
+
+*.rar
+*.zip
+
+
+
+#########
+#Shell files
+#########
+!*.bat
+!*.sh
+
+#########
+#Tcl files
+#########
+!*.tcl
+
+#########
+#Python files
+#########
+!*.py
+!*.pyc
+
+#########
+#Matlab files
+#########
+!*.m
+
+#########
+#Perl files
+#########
+!*.pl 
+!*.pm
+
+#########
+#Makefile files
+#########
+!*/Makefile
+
+#########
+#HDL Source files:
+#########
+#Do NOT ignore VHDL, Verilog, System Verilog or SVF files.
+!*.vhd
+!*.vhdl
+!*.v
+!*.sv
+!*.vp
+!*.svf
+
+
+###########################################################################
+##	Modelsim
+###########################################################################
+!*.do
+!*.ini
+
+###########################################################################
+##	Lattic Diamond
+###########################################################################
+#########
+#Source files:
+#########
+!*.sym
+
+#########
+#IP files
+#########
+!*.ipx
+!*.lpc
+
+#########
+#Constraint files
+#########
+!*.ldf
+
+#########
+#Debug files
+#########
+!*.rvl
+!*.rvs
+
+#########
+#Bitfile files
+#########
+!*.jed
+
+#########
+#Project files
+#########
+!*.lpf
+
+###########################################################################
+##	Quartus
+###########################################################################
+
+!*/db
+!*/incremental_db
+
+#########
+#Source files:
+#########
+!*.bsf
+
+!*.coe
+!*.mem
+
+#########
+#Project files
+#########
+!*.qar
+!*.par
+!*.qpf
+!*.qsf
+
+#########
+#Constraint files
+#########
+!*.sdc
+
+#########
+#IP files
+#########
+!*.qip
+!*.qsys
+!*.sopcinfo
+
+#########
+#Debug files
+#########
+!*.stp
+!*.spf
+
+#########
+#Bitfile files
+#########
+!*.sof
+!*.pof
+!*.jic
+!*.rpd
+
+###########################################################################
+##	VIVADO
+###########################################################################
+
+*/*.cache/*
+
+#########
+#Project files
+#########
+!*.xpr
+
+#########
+#Source files:
+#########
+!*.bd
+!*.edif
+#########
+#IP files
+#########
+#.xci: synthesis and implemented not possible - you need to return back to the previous version to generate output products
+#.xci + .dcp: implementation possible but not re-synthesis
+#*.xci(www.spiritconsortium.org)
+!*.xci
+#*.dcp(checkpoint files)
+!*.dcp
+!*.vds
+!*.pb
+#All bd comments and layout coordinates are stored within .ui
+!*.ui
+!*.ooc
+#########
+#System Generator
+#########
+!*.mdl
+!*.slx
+!*.bxml
+#########
+#Simulation logic analyzer
+#########
+!*.wcfg
+!*.coe
+#########
+#MIG
+#########
+!*.prj
+!*.mem
+#########
+#Project files
+#########
+#XPR  +  *.XML ? XPR (Files are merged into a single XPR file for 2014.1 version)
+#Do NOT ignore *.xpr files
+!*.xpr
+#Include *.xml files for 2013.4 or earlier version
+!*.xml
+#########
+#Constraint files
+#########
+#Do NOT ignore *.xdc files
+!*.xdc
+#########
+#TCL - files
+#########
+!*.tcl
+#########
+#Journal - files
+#########
+!*.jou
+#########
+#Reports
+#########
+!*.rpt
+!*.txt
+!*.vdi
+#########
+#C-files
+#########
+!*.c
+!*.h
+!*.elf
+!*.bmm
+!*.xmp
+
+#########
+#Debug-files
+#########
+!*.ltx
+
+#########
+#Bitfile-files
+#########
+!*.bin
+!*.mcs
+!*.bit
